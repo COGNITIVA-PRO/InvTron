@@ -1,0 +1,163 @@
+{
+  "cabos_e_conectores": {
+    "cabos_para_rf": "Cabos para RF",
+    "conectores_ac": "Conectores AC",
+    "conectores_bnc": "Conectores BNC",
+    "conectores_dupont": "Conectores DuPont",
+    "conectores_usb": "Conectores USB",
+    "plugs": "Plugs",
+    "conector_kk": "Conector KK",
+    "conector_ph": "Conector PH"
+  },
+  "cameras": {
+    "cameras_ov": "Câmeras OV"
+  },
+  "comunicacao": {
+    "nfc": "NFC",
+    "conversores_de_protocolo": "Conversores de Protocolo",
+    "lora": "LoRa",
+    "transceptores_de_rf": "Transceptores de RF"
+  },
+  "diversos": {
+    "antenas": "Antenas"
+  },
+  "fontes_e_conv_de_tensao": {
+    "fontes_ac_dc": "Fontes AC/DC"
+  },
+  "magneticos": {
+    "imas": "Ímãs"
+  },
+  "motores_atuadores": {
+    "motores_dc": "Motores DC",
+    "servomotores": "Servomotores",
+    "ventoinhas": "Ventoinhas"
+  },
+  "placas_de_circuito_impresso": {
+    "adaptadores_em_pcb": "Adaptadores em PCB",
+    "placas_pcb_para_prototipagem": "Placas PCB para Prototipagem"
+  },
+  "reles": {
+    "reles_de_estado_solido": "Relés de Estado Sólido"
+  },
+  "resistores_variaveis": {
+    "potenciometros": "Potenciômetros"
+  },
+  "ferramentas": {
+    "ferramentas_de_imagem": "Ferramentas de Imagem",
+    "medicao_e_deteccao": "Medição e Detecção",
+    "soldadores": "Soldadores"
+  },
+  "medicao_geracao_de_sinal": {
+    "gerador_de_funcoes": "Gerador de Funções"
+  },
+  "displays": {
+    "displays_graficos_tft": "Displays Gráficos TFT",
+    "displays_graficos_oled": "Displays Gráficos OLED",
+    "display_de_digitos_led_ck": "Display de Dígitos LED CK",
+    "display_de_digitos_led_ca": "Display de Dígitos LED CA"
+  },
+  "esp32": {
+    "placas_de_desenvolvimento": "Placas de Desenvolvimento"
+  },
+  "atuadores": {
+    "reles_eletromecanicos": "Relés Eletromecânicos"
+  },
+  "audio_video": {
+    "audio": "Áudio",
+    "cameras_ov": "Câmeras OV"
+  },
+  "carregadores_de_bateria": {
+    "carregador_micro_usb": "Carregador Micro-USB",
+    "placas_bms": "Placas BMS",
+    "placas_ups": "Placas UPS"
+  },
+  "conversores_de_tensao": {
+    "step_down_buck": "Step-Down/Buck",
+    "step_up_boost": "Step-Up/Boost"
+  },
+  "drivers": {
+    "driver_pwm": "Driver PWM"
+  },
+  "funcionais": {
+    "clock": "Clock",
+    "fontes_ac_dc": "Fontes AC/DC",
+    "ihm": "IHM",
+    "leitores": "Leitores",
+    "magneticos": "Magnéticos",
+    "mecanicos": "Mecânicos",
+    "opticos": "Ópticos",
+    "sonoros": "Sonoros"
+  },
+  "sensores": {
+    "ihm": "IHM",
+    "magneticos": "Magnéticos",
+    "movimento": "Movimento",
+    "opticos": "Ópticos",
+    "sensores_de_ambiente": "Sensores de Ambiente",
+    "sonoros": "Sonoros"
+  },
+  "controladoras_de_video": {
+    "controladoras_de_video": "Controladoras de Vídeo"
+  },
+  "reles_de_estado_solido": {
+    "conectorizados": "Conectorizados"
+  },
+  "transistores": {
+    "transistor_mosfet_canal_n": "Transistor MOSFET Canal N",
+    "transistor_npn": "Transistor NPN",
+    "transistor_pnp": "Transistor PNP"
+  },
+  "reguralrores_de_tensao": {
+    "reg_tensao_fixa_neg": "Reg. Tensão Fixa Neg.",
+    "reg_tensao_fixa_pos": "Reg. Tensão Fixa Pos.",
+    "reg_tensao_var": "Reg. Tensão Var."
+  },
+  "circuitos_integrados": {
+    "memorias": "Memórias",
+    "optoeletronicos": "Optoeletrônicos",
+    "logica_digital": "Lógica Digital",
+    "temporizacao_e_sinal": "Temporização e Sinal",
+    "interf_e_comms": "Interf. e  Comms.",
+    "pot_digitais": "Pot. Digitais",
+    "drivers": "Drivers",
+    "op_amps_e_comparadores": "Op. Amps. e Comparadores",
+    "microcontroladores": "Microcontroladores",
+    "ger_eneergia": "Ger. Eneergia",
+    "soquetes": "Soquetes",
+    "sensores": "Sensores"
+  },
+  "diodos_axiais": {
+    "diodos_rapidos": "Diodos Rápidos",
+    "diodos_retificadores": "Diodos Retificadores",
+    "diodos_schottky": "Diodos Schottky",
+    "diodos_zener": "Diodos Zener"
+  },
+  "diodos_em_ponte": {
+    "pontes_retificadoras": "Pontes Retificadoras"
+  },
+  "diodos_led": {
+    "led_3mm": "LED 3mm",
+    "led_5mm": "LED 5mm"
+  },
+  "diodos_to220_sot186": {
+    "diodos_schottky": "Diodos Schottky"
+  },
+  "tiristores": {
+    "triacs_e_scrs": "TRIACs e SCRs"
+  },
+  "osciladores_e_cristais": {
+    "osciladores_ceramicos": "Osciladores Cerâmicos",
+    "cristais": "Cristais"
+  },
+  "capacitores": {
+    "capacitores_eletroliticos": "Capacitores Eletrolíticos",
+    "capacitores_plasticos": "Capacitores Plásticos",
+    "capacitores_ceramicos": "Capacitores Cerâmicos"
+  },
+  "resistores": {
+    "resistores_axiais_comuns": "Resistores Axiais Comuns",
+    "resistores_de_potencia": "Resistores de Potência",
+    "resistores_axiais_de_precisao": "Resistores Axiais de Precisão",
+    "termistores_e_varistores": "Termistores e Varistores"
+  }
+}

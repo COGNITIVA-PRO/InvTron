@@ -1,0 +1,6 @@
+.build/
+.vscode/
+build/
+secret/
+credentials.h
+old/

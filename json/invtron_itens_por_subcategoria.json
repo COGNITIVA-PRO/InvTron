@@ -1,0 +1,606 @@
+{
+  "cabos_para_rf": {
+    "IPEX-K": "Cabo Coaxial IPEX-K Fem-Fem com conectores RF IPX 1.13"
+  },
+  "conectores_ac": {
+    "IEC320-C8": "Tomada de Entrada de Energia de Painel AC 250V 2.5A Macho 2 Pinos",
+    "CNAL-AC": "Conector de Alavanca para Emenda de Pares de Fios 1x1, 1x2, 1x3 28-12 AWG"
+  },
+  "conectores_bnc": {
+    "BNC-PCB-F": "Conector BNC Fêmea para PCB"
+  },
+  "conectores_dupont": {
+    "DUP254X2": "Conector DuPont 2.54mm 2 pinos",
+    "DUP254X3": "Conector DuPont 2.54mm 3 pinos"
+  },
+  "conectores_usb": {
+    "USBCMWC": "Conector USB-C preto macho com capa",
+    "USBAWC": "Conector USB-A preto macho com capa",
+    "USBCFPNL": "Conector USB-C fêmea para painel",
+    "USBCFWIRED": "Conector USB-C fêmea soldável",
+    "USB-C-Fio": "Conector Power USB Tipo-C à Prova d'Água Fêmea 2  fios"
+  },
+  "plugs": {
+    "DC5525M-TP": "Conector DC 5.5x2.5mm Macho DC para Par Metálico",
+    "DC5525": "Plug DC 5.5x2.5mm com capa"
+  },
+  "cameras_ov": {
+    "OV5640-120": "Câmera OV5640 120°",
+    "OV2640-120": "Câmera OV2640 120°",
+    "OV2640 -66": "Câmera OV2640 66°",
+    "OV2640-160-NV": "Câmera OV2640 75mm 160° 850nm Night Vision",
+    "OV5640-100": "Câmera USB OV5640 100°",
+    "OV-USB": "Módulo USB para Câmera OV",
+    "USBOV9726": "Módulo Câmera Webcam USB 2.0, OV9726, 70 Graus"
+  },
+  "nfc": {
+    "NTAG215": "Etiquetas Adesivas NFC NTAG 215 13.56MHz"
+  },
+  "antenas": {
+    "ANT-GPS": "AntenaGPS Glonass de Alto Ganho 28DBI 3 em 1"
+  },
+  "fontes_ac_dc": {
+    "ACDC12V10A": "Fonte de Alimentação LED 12V-10A 120W",
+    "DC5521": "Fonte para Carregador de Bateria de Lítio 16.8V 10A",
+    "PS0312-10A": "Fonte de Alimentação Ajustável 3V-12V-10A",
+    "MP1584EN": "Módulo Step-Down/Buck 4.5-28V para 0.8-20V DC 1,8A"
+  },
+  "imas": {
+    "ND201003": "Ímãs de Neodímio 20x10x3mm",
+    "ND1002": "Ímãs de Neodímio 10x2mm",
+    "ND0602": "Ímãs de Neodímio 6x2mm"
+  },
+  "motores_dc": {
+    "GA12-N20": "Micro Motor DC 3V com Redução de Engrenagens Metálicas"
+  },
+  "servomotores": {
+    "MG90S": "Servo Digital MG90S Metal Gear",
+    "DS3230 PRO-270": "Servo Digital DS3230 Metal Gear"
+  },
+  "ventoinhas": {
+    "ACP3007": "Ventilador/Ventoinha 30x30x7mm DC5V ultrafino"
+  },
+  "adaptadores_em_pcb": {
+    "PCBESP32": "Adaptador PCB ESP32 para RFM915",
+    "SMDPTH": "Adaptador PTH para SMD",
+    "PCB-FPC-FFC": "Placa Adaptadora FPC FFC 24 pinos 0,5-1mm para 2,54mm"
+  },
+  "placas_pcb_para_prototipagem": {
+    "ESP32-BB": "ESP32 Breakout Board",
+    "PCBDF46": "Placa PCB Dupla-face 4x6mm Azul",
+    "PCBDF57": "Placa PCB Dupla-face 5x7mm Azul",
+    "PCBDF79": "Placa PCB Dupla-face 7x9mm Azul",
+    "PCBDF28": "Placa PCB Dupla-face 2x8mm Verde",
+    "PCBSF1015": "Placa PCB Dupla-face 7x9mm Azul"
+  },
+  "reles_de_estado_solido": {
+    "G3MB-202P-5VDC": "Relé de Estado Sólido 5V/240V 2A"
+  },
+  "potenciometros": {
+    "WH148": "Potenciômetro Rotativo Linear 10K",
+    "POT5K": "Potenciômetro 5KR",
+    "TRM5K": "Trimpot 5KR",
+    "POT10K": "Potenciômetro 10KR",
+    "TRM10K": "Trimpot 10KR",
+    "TRM100K": "Trimpot 100KR",
+    "POT100K": "Potenciômetro 100KR"
+  },
+  "conversores_de_protocolo": {
+    "PL2303": "Módulo USB para TTL e UART",
+    "CH340": "Adaptador Conversor USB-A para RS-485",
+    "MAX485": "Módulo Conversor TTL para RS485 com Controle de Fluxo Automático MAX485",
+    "74HC4067": "Multiplexador Analógico/Digital 16 canais 74HC4067",
+    "BSS138": "Conversor de Nível Lógico Bidirecional TTLxI2C (5Vx3,3V) 4 canais"
+  },
+  "ferramentas_de_imagem": {
+    "G1200": "Microscópio Digital G1200 com display 7\"",
+    "1600X Wifi": "Microscópio Digital Wi-Fi/USB-C",
+    "JCWHCAM": "Câmera Endoscópica USB-C de 7.0mm 2m IP67",
+    "HDMI4KUSBC": "Placa de Captura de Vídeo USB-C HDMI 4K 30Hz"
+  },
+  "medicao_e_deteccao": {
+    "EMF01": "Detector de Radiação Eletromagnética",
+    "V-I-USB": "Medidores de Tensão e Corrente USB-A/USB-C",
+    "DSO2D15": "Osciloscópio Hantek DSO2D15 150MHz Dual-Channel",
+    "GC01": "Contador Geiger Digital Portátil"
+  },
+  "soldadores": {
+    "Awithz-HD2": "Solda Ponto para Tira de Níquel",
+    "TS-101": "Ferro de Solda Digital TS101 DC 12-24/USD-PD 65W Mini",
+    "TS-100": "Ferro de Solda Digital TS100 DC12V-24V 40W Mini"
+  },
+  "gerador_de_funcoes": {
+    "XR2206": "Gerador de Função de Sinal Senoidal/Triângulo/Quadrado 1Hz-1MHz"
+  },
+  "displays_graficos_tft": {
+    "DSP18-ST7735-I2C": "Display WeAct LCD RGB 1.8\" 128x160 ST7735 SPI (github.com/WeActStudio/WeAct-ST7735.git)",
+    "DSP128-R": "Display LCD RGB 1.28\" 240x240 GC9A01 SPI Redondo SPI TFT_eSPI",
+    "DSP279": "Display LCD RGB 2,79\" 142x428 NV3007 SPI TFT_eSPI"
+  },
+  "placas_de_desenvolvimento": {
+    "ESP32-2032S028": "ESP32 c/Display 2,8\" Touch ST7789  ILI9341 XPT204/CST820/GT911 (touch) 240x320 TFT_eSPI/LovyanGFX",
+    "ESP32C3u": "Módulo ESP32-C3 mini 16 pinos USB-C",
+    "ESP32-WROOM-30": "Placa de Desenvolvimento ESP32-WROOM-32D 30 pinos",
+    "ESP32-WROOM-38": "Placa de Desenvolvimento ESP32-WROOM-32D 38 pinos"
+  },
+  "displays_graficos_oled": {
+    "DSP096": "Display LCD OLED 0,96\" SSD1306 128x64 I2C/SPI",
+    "TFT18": "Display LCD TFT 1,8\" ILI9341, ILI9488, ST7735 128X160 I2C/SPI"
+  },
+  "reles_eletromecanicos": {
+    "RL5V": "Módulo Relé 5V 127/250V AC 10A"
+  },
+  "audio": {
+    "YX6300": "Módulo Reprodutor de MP3 UART"
+  },
+  "carregador_micro_usb": {
+    "TP4056": "Carregador da Bateria 18650 USB, 5V, 1A, 1S (TP4056)"
+  },
+  "placas_bms": {
+    "BMS12-60-3S": "Placa BMS 18650x3 3S Carregador 12.6V 60A",
+    "BMS12-20-3S": "Placa BMS 18650x3 3S Carregador 12.6V 20A"
+  },
+  "placas_ups": {
+    "UPS40W": "Placa Mini UPS de 40W 5V, 9V, 12V, 3 Saídas DC, 1 Saída USB"
+  },
+  "lora": {
+    "LoRa8CH": "Módulo Gateway LoRaWAN 8 canais Pi Hat LoRaWAN 915MHz",
+    "RFM95W": "Módulo Tranceiver LoRa 915MHz SX1276 (RFM95W )"
+  },
+  "transceptores_de_rf": {
+    "433MHz": "Módulo de Detecção de Batimento Cardíaco"
+  },
+  "step_down_buck": {
+    "ACDC220V-5V": "Módulo Step-Down AC220V-DC5V 700MA 3.5W",
+    "XL6019": "Módulo Step-Up/Down 20W de 5-32V 4A para 1.3-35V 1,5A",
+    "XL4015": "Conversor Step Down  DC-DC 4-38V para 1.25-36V 5A",
+    "BK4036-20A": "Módulo Conversor Buck 20A 300W de 6-40V para 1.2-36V CC CV",
+    "BK2405-03A": "Módulo  Step-Down DC-DC 12-24v para 5V 3A ajustável 1.8V 2.5V 3.3V 5V 9V 12V"
+  },
+  "step_up_boost": {
+    "MT3608": "Módulo Step-Up-UP MT3608",
+    "HW-106": "Conversor DC-DC Step Up 0,9V-5V a 5V USB"
+  },
+  "driver_pwm": {
+    "STC8G2K64S4": "Placa de Depuração de Servomotores PWM de 8 Canais",
+    "PCA9685": "Placa Driver PWM de Servo de 16 Canais"
+  },
+  "clock": {
+    "DS1302": "Módulo de Relógio de Tempo Real DS1302"
+  },
+  "ihm": {
+    "KY004": "Módulo de Botão",
+    "KY036": "Módulo Sensor de Toque com Transistor Darlington MPSA13",
+    "TTP223": "Módulo Sensor de Toque Capacitivo"
+  },
+  "leitores": {
+    "SDRDR": "Módulo Leitor de Cartão SD"
+  },
+  "magneticos": {
+    "KY021": "Módulo Mini Reed Switch",
+    "KY024": "Módulo Sensor Margnético Hall Linear",
+    "KY035": "Módulo Sensor Magnético Hall Analógico",
+    "KY003": "Módulo Sensor Magnético Hall",
+    "KY025": "Módulo Sensor Magnético Reed Switch Normally Open"
+  },
+  "mecanicos": {
+    "KY040": "Módulos Codificador Rotativo",
+    "KY020": "Módulo de Sensor/interruptor de Inclinação (Tilt Sensor)",
+    "KY017": "Módulo Sensor/Interruptor de Inclinação por Mercúrio (Tilt Switch)",
+    "KY031": "Módulo Sensor de Impacto",
+    "KY002": "Módulo de Sensor de Vibração",
+    "KY023": "Módulo Joystick"
+  },
+  "opticos": {
+    "KY008": "Módulo Emissor de Laser",
+    "KY016": "Módulo LED de 3 Cores (RGB)",
+    "KY027": "Módulos de Luz Mágica (Copo)",
+    "KY009": "Módulo LED RGB SMD",
+    "KY029": "Módulo LED 3mm Bicolor de Cátodo Comum",
+    "KY011": "Módulo LED de Duas Cores",
+    "KY034": "Módulo LED Piscante",
+    "KY022": "Receptor de Luz Infravermelha",
+    "KY033": "Módulo IR Seguidor de linha",
+    "KY032": "Módulo Sensor IR de Detecção de Obstáculo",
+    "KY010": "Módulo de Sensor Fotointerruptor/Contador de Pulsos",
+    "KY018": "Módulo Fotorresistor",
+    "VL53LXX": "Sensor de Distância a Laser",
+    "KY039": "Sensor Óptico de Pulsação",
+    "KY005": "Emissor de Luz Infravermelha"
+  },
+  "sonoros": {
+    "KY012": "Módulo Buzzer Ativo",
+    "KY006": "Módulo Buzzer Passivo",
+    "KY037": "Módulo Sensor de Som com Microfone Grande",
+    "KY038": "Módulo Sensor de Som com Microfone Pequeno",
+    "HC-SR04": "Módulo Sensor Ultrassônico"
+  },
+  "movimento": {
+    "GY-521": "Módulo Acelerômetro MPU6050 GY-521"
+  },
+  "sensores_de_ambiente": {
+    "GUVA-S12SD": "Módulo Sensor UV GUVA-S12SD",
+    "AHT20+BMP280": "Sensor de Pressão, Temperatura e Umidade",
+    "KY015": "Módulo Sensor de Temperatura e Umidade",
+    "KY026": "Módulo Sensor de Chama",
+    "KY001": "Módulo Sensor de Temperatura Digital",
+    "KY013": "Módulo Sensor de Temperatura Analógico",
+    "KY028": "Módulo Sensor de Temperatura Digital PTC",
+    "YL-69-YL-38": "Módulo Sensor de Humidade de Solo",
+    "HW-038": "Módulo Sensor de Nível de Água",
+    "MQ2": "Módulo Sensor de Gás Metano/Butano/GLP",
+    "GUVA-S12SD-2": "Sensor de Intensidade de Luz Ultravioleta CJMCU"
+  },
+  "controladoras_de_video": {
+    "LM270WQ1-SDA2": "Controladora LM270WQ1-SDC2 para 2560X1440 LED 30 pinos LM270WQ1 (SD) (A2) iMac2012",
+    "LCD-LVI-50-7": "Controladora para LCD 7\" Resol. 1024x600 LVI 50 Pinos"
+  },
+  "conectorizados": {
+    "SSR-25DA": "Módulo de Relé de Estado Sólido 25A"
+  },
+  "conector_kk": {
+    "KK 5045-2": "Conector KK 5045-2 - Macho 2,5mm - 2 Vias",
+    "KK 5051-2": "Conector KK 5051-2 Fêmea 2,5mm - 2 Vias",
+    "5159-T": "Terminal 5159T - 2,5mm para Terminais 5051"
+  },
+  "conector_ph": {
+    "PH2-2P~5P": "Conector PH 2mm 2 a 5 pinos (M/F)"
+  },
+  "transistor_mosfet_canal_n": {
+    "2SK2749": "Transistor MOSFET",
+    "76121P": "Transistor MOSFET",
+    "CEP3120": "Transistor MOSFET",
+    "FTA02N60C": "Transistor MOSFET",
+    "IRF530N": "Transistor MOSFET"
+  },
+  "transistor_npn": {
+    "2N3904": "Transistor de uso geral",
+    "2N5551": "Transistor de uso geral de alta tensão",
+    "2SC1226A": "Transistor de potência",
+    "2SC3150": "Transistor de potência",
+    "2SC3866": "Transistor de potência",
+    "2SC4106": "Transistor de potência",
+    "2SD1776": "Transistor de potência",
+    "A42": "Transistor de uso geral alta tensão",
+    "BC337": "Transistor amplificador de Audio",
+    "BC547": "Transistor de uso geral",
+    "BC548": "Transistor de uso geral",
+    "BU406": "Transistor de potência",
+    "C1815": "Transistor amplificador de Audio",
+    "C945": "Transistor amplificador de Audio",
+    "C945P": "Transistor amplificador de Audio",
+    "D13007K": "Transistor chaveador rápido alta tensão",
+    "D1616A": "Transistor amplificador de Audio",
+    "D304X": "Transistor de potência",
+    "S8050": "Transistor de uso geral",
+    "S9013": "Transistor de uso geral",
+    "S9014": "Transistor de uso geral",
+    "S9018": "Transistor de uso geral"
+  },
+  "transistor_pnp": {
+    "2N3906": "Transistor de uso geral",
+    "2N5401": "Transistor de uso geral de alta tensão",
+    "2SA699A": "Transistor de potência",
+    "A1015": "Transistor ampl. de baixa freq.",
+    "A733": "Transistor de uso geral",
+    "A92": "Transistor de uso geral alta tensão",
+    "HCBC557": "Transistor de uso geral",
+    "S8550": "Transistor amplificador de Audio",
+    "S9012": "Transistor de uso geral",
+    "S9015": "Transistor de uso geral",
+    "TIP32C": "Transistor de uso geral"
+  },
+  "reg_tensao_fixa_neg": {
+    "KA7905": "Regulador de tensão  -5V 1A",
+    "KA7912": "Regulador de tensão -12V 1A"
+  },
+  "reg_tensao_fixa_pos": {
+    "L7805CV": "Regulador de tensão  +5V 1,5A",
+    "L7808CV": "Regulador de tensão  +8V 1,5A",
+    "L7809CV": "Regulador de tensão  +9V 1,5A",
+    "L7812C": "Regulador de tensão +12V 1,5A",
+    "LM2576T-ADJ": "3.0 A, 15V, Step-Down Switching Regulator, ±4%",
+    "UA7812C": "Regulador de tensão +12V 1,5A"
+  },
+  "reg_tensao_var": {
+    "LM317T": "Regulador de Tensão Variável +1.2V~37V 1,5A",
+    "LP2950": "100mA, 30V, Adjustable Voltage Regulator With Shutdown",
+    "TL431": "150mA, 36V Adjustable Accurate Reference Source"
+  },
+  "memorias": {
+    "25Q80BVAIG": "Memória serial dual/quad SPI 8MBIT"
+  },
+  "optoeletronicos": {
+    "4N25": "Fotoacoplador",
+    "EL817": "Fotoacoplador",
+    "PC817": "Fotoacoplador",
+    "UMW817": "Fotoacoplador"
+  },
+  "logica_digital": {
+    "7407N": "Hex Buffers with High Voltage Open-Collector Outputs",
+    "74LS138N": "Decoder/Demux",
+    "CD4013BPW": "Dual D-type flip-flop",
+    "CD4017BE": "Contador de décadas",
+    "CD4027BE": "CMOS Dual J-K Master-Slave Flip-Flop",
+    "CD4093BE": "Quad 2-Input NAND Schmitt Trigger 20V",
+    "HEF4060B": "14-stage ripple-carry binary counter/divider and oscillator",
+    "MM74HC32N": "OR Gate"
+  },
+  "temporizacao_e_sinal": {
+    "CD4046BE": "Phase-Locked Loop",
+    "LM555CN": "Oscilador/Timer 555",
+    "NE555N": "Oscilador/Timer 555",
+    "NE555P": "Oscilador/Timer 555",
+    "SD4046BE": "Phase-Locked Loop"
+  },
+  "interf_e_comms": {
+    "CH340C": "Single chip USB to asynchronous serial data transfer interface (montado)",
+    "FT232RL": "Single chip USB to asynchronous serial data transfer interface (montado)"
+  },
+  "pot_digitais": {
+    "DS1804-100": "NV Trimmer Potentiometer"
+  },
+  "drivers": {
+    "L293D": "4-Channel driver for relays  solenoides,  DCand  stepping  motors and PW switching",
+    "MAX7221": "Driver para displays LED de 7 segmentos cátodo comum"
+  },
+  "op_amps_e_comparadores": {
+    "LM324N": "Quad OP-Amp",
+    "LM358P": "Low-power  dual high-gain Op-Amps",
+    "LM386": "Low Voltage Audio Power Amplifier",
+    "LM393": "Low-power  dual voltage comparator",
+    "NE5532P": "Dual Low-Noise Op Amp",
+    "TL082CP": "Amplificador operacional JFET",
+    "UA741CN": "General-purpose single Op-Amp"
+  },
+  "microcontroladores": {
+    "PIC16F84A": "Microcontrolador 18-pin Flash/EEPROM 8-Bit"
+  },
+  "ger_eneergia": {
+    "TL497ACN": "Switching voltage regulator",
+    "ULN2003AN": "7-ch, high−voltage, high−current Darlington drivers",
+    "ULN2803APG": "Octal High Voltage,High Current Darlington Array",
+    "WT7520": "Supervisor de PWM para Fontes de Alimentação"
+  },
+  "soquetes": {
+    "SOQDIP24": "Soquete Estampado Slim 24 pinos"
+  },
+  "sensores": {
+    "LM35": "Sensor de temperatura -55~150oC"
+  },
+  "diodos_rapidos": {
+    "FR302": "Diodo retificador rápido",
+    "1N4148": "Diodo retificador rápido",
+    "PH4148": "Diodo retificador ultra-rápido",
+    "1N4937": "Diodo retificador rápido",
+    "FR107": "Diodo retificador rápido",
+    "FR207": "Diodo retificador rápido"
+  },
+  "diodos_retificadores": {
+    "1N5819": "Diodo retificador",
+    "1N4004": "Diodo retificador",
+    "1N4007": "Diodo retificador",
+    "1N5399": "Diodo retificador",
+    "1N5408": "Diodo retificador"
+  },
+  "diodos_schottky": {
+    "SR520": "Diodo retificador Schottky",
+    "1N5822": "Diodo retificador Schottky",
+    "1N5844": "Diodo retificador Schottky",
+    "SR306": "Diodo retificador Schottky",
+    "BYV118X": "Retificador Schottky de cátodo comum",
+    "S20C40C": "Retificador Schottky de cátodo comum",
+    "SBL2040CT": "Retificador Schottky de cátodo comum",
+    "SBL3040PT": "Retificador Schottky de cátodo comum",
+    "S20C45C": "Retificador Schottky de cátodo comum",
+    "YG802C06": "Retificador Schottky de cátodo comum",
+    "SF1602CT": "Retificador Schottky de cátodo comum",
+    "SF1620CT": "Retificador Schottky de cátodo comum"
+  },
+  "diodos_zener": {
+    "1N4727": "Diodo Zener 3V",
+    "1N4728": "Diodo Zener 3V3",
+    "1N4729": "Diodo Zener 3V6",
+    "1N4730": "Diodo Zener 3V9",
+    "1N4732": "Diodo Zener 4V7",
+    "1N4733": "Diodo Zener 5V1",
+    "1N4734": "Diodo Zener 5V6",
+    "1N4735": "Diodo Zener 6V2",
+    "1N4739": "Diodo Zener 9V1",
+    "1N4740": "Diodo Zener 10V",
+    "1N4742": "Diodo Zener 12V",
+    "1N4743": "Diodo Zener 13V",
+    "1N4744": "Diodo Zener 15V",
+    "1N4746": "Diodo Zener 18V",
+    "1N4750": "Diodo Zener 27V",
+    "1N4751": "Diodo Zener 30V"
+  },
+  "pontes_retificadoras": {
+    "PBL405": "Ponte retificadora"
+  },
+  "led_3mm": {
+    "LEDRD3": "LED 3mm Vermelho",
+    "LEDYL3": "LED 3mm Amarelo",
+    "LEDWH3": "LED 3mm Branco",
+    "LEDBL3": "LED 3mm Azul",
+    "LEDGR3": "LED 3mm Verde"
+  },
+  "led_5mm": {
+    "LEDRD5": "LED 5mm Vermelho",
+    "LEDYL5": "LED 5mm Amarelo",
+    "LEDGR5": "LED 5mm Verde",
+    "LEDWH5": "LED 5mm Branco",
+    "LEDBL5": "LED 5mm Azul"
+  },
+  "triacs_e_scrs": {
+    "TIC106D": "SCR 400V 5A",
+    "BT151": "SCR 500V 12A",
+    "BT139": "Triac 600V 16A",
+    "MCR100-8": "SCR 600V 0,8A"
+  },
+  "osciladores_ceramicos": {
+    "OC4MH": "Oscilador Cerâmico 4MHz"
+  },
+  "cristais": {
+    "XT4MH": "Cristal 4MHz",
+    "XT3V57MH": "Cristal 3,57MHz"
+  },
+  "capacitores_eletroliticos": {
+    "1uF50V": "Capacitor Eletrolítico 1uF/50V",
+    "2_2uF50V": "Capacitor Eletrolítico 2.2uF/50V",
+    "3_3uF50V": "Capacitor Eletrolítico 3.3uF/50V",
+    "4_7uF50V": "Capacitor Eletrolítico 4.7uF/50V",
+    "10uF25V": "Capacitor Eletrolítico 10uF/25V",
+    "10uF50V": "Capacitor Eletrolítico 10uF/50V",
+    "22uF25V": "Capacitor Eletrolítico 22uF/25V",
+    "33uF16V": "Capacitor Eletrolítico 33uF/16V",
+    "47uF16V": "Capacitor Eletrolítico 47uF/16V",
+    "47uF25V": "Capacitor Eletrolítico 470uF/25V",
+    "470uF25V": "Capacitor Eletrolítico 47uF/25V",
+    "47uF350V": "Capacitor Eletrolítico 47uF/350V",
+    "68uF450V": "Capacitor Eletrolítico 68uF/450V",
+    "100uF10V": "Capacitor Eletrolítico 100uF/10V",
+    "100uF16V": "Capacitor Eletrolítico 100uF/16V",
+    "100uF25V": "Capacitor Eletrolítico 100uF/25V",
+    "220uF10V": "Capacitor Eletrolítico 220uF/10V",
+    "220uF16V": "Capacitor Eletrolítico 220uF/16V",
+    "220uF25V": "Capacitor Eletrolítico 220uF/25V",
+    "330uF50V": "Capacitor Eletrolítico 330uF/50V",
+    "380uF350V": "Capacitor Eletrolítico 380uF/350V",
+    "470uF6,3V": "Capacitor Eletrolítico 470uF/6.3V",
+    "470uF16V": "Capacitor Eletrolítico 470uF/16V",
+    "470uF35V": "Capacitor Eletrolítico 470uF/35V",
+    "1mF25V": "Capacitor Eletrolítico 1000uF/25V",
+    "2,2mF25V": "Capacitor Eletrolítico 2200uF/25V",
+    "4,7mF50V": "Capacitor Eletrolítico 4700uF/50V"
+  },
+  "capacitores_plasticos": {
+    "2_5nF": "Capacitor Poliéster 2.5nF",
+    "10nF": "Capacitor Poliéster 10nF",
+    "22nF": "Capacitor Poliéster 22nF",
+    "100nF": "Capacitor Poliéster 100nF",
+    "220nF": "Capacitor Poliéster 220nF 275V",
+    "0_1uF": "Capacitor Poliéster 0.1uF 100V",
+    "470nF": "Capacitor Poliéster 470nF 275V",
+    "100nF250V": "Capacitor Poliéster 100nF 250V",
+    "220nF250V": "Capacitor Poliéster 220nF 250V",
+    "330nF250V": "Capacitor Poliéster 330nF 250V"
+  },
+  "capacitores_ceramicos": {
+    "2pF": "Capacitor Cerâmico 2pF",
+    "3_3pF": "Capacitor Cerâmico 3.3pF",
+    "5pF": "Capacitor Cerâmico 5pF",
+    "10pF": "Capacitor Cerâmico 10pF",
+    "15pF": "Capacitor Cerâmico 15pF",
+    "16pF": "Capacitor Cerâmico 16pF",
+    "22pF": "Capacitor Cerâmico 22pF",
+    "27pF": "Capacitor Cerâmico 27pF",
+    "30pF": "Capacitor Cerâmico 30pF",
+    "33pF": "Capacitor Cerâmico 33pF",
+    "39pF": "Capacitor Cerâmico 39pF",
+    "47pF": "Capacitor Cerâmico 47pF",
+    "68pF": "Capacitor Cerâmico 68pF",
+    "75pF": "Capacitor Cerâmico 75pF",
+    "82pF": "Capacitor Cerâmico 82pF",
+    "101": "Capacitor Cerâmico 100pF",
+    "151": "Capacitor Cerâmico 150pF",
+    "221": "Capacitor Cerâmico 220pF",
+    "331": "Capacitor Cerâmico 330pF",
+    "461": "Capacitor Cerâmico 460pF",
+    "471": "Capacitor Cerâmico 470pF",
+    "681": "Capacitor Cerâmico 680pF",
+    "102": "Capacitor Cerâmico 1nF",
+    "152": "Capacitor Cerâmico 1.5nF",
+    "222": "Capacitor Cerâmico 2.2nF",
+    "332": "Capacitor Cerâmico 3.3nF",
+    "472": "Capacitor Cerâmico 4.7nF",
+    "682": "Capacitor Cerâmico 6.8nF",
+    "103": "Capacitor Cerâmico 10nF",
+    "153": "Capacitor Cerâmico 15nF",
+    "333": "Capacitor Cerâmico 33nF",
+    "473": "Capacitor Cerâmico 47nF",
+    "683": "Capacitor Cerâmico 68nF",
+    "104": "Capacitor Cerâmico 100nF"
+  },
+  "display_de_digitos_led_ck": {
+    "ELS-515SURWA": "Display 7 Segmentos Vermelho",
+    "S530-A3": "Display 7 Segmentos Vermelho",
+    "HS-5101AS": "Display 7 Segmentos Vermelho",
+    "D3042KSR": "Display Triplo 7 Segmentos Vermelho",
+    "LDD5115": "Dual-digit LED display 0,56\""
+  },
+  "display_de_digitos_led_ca": {
+    "D3042ASR": "Display Triplo 7 Segmentos Vermelho"
+  },
+  "resistores_axiais_comuns": {
+    "1R 1_4W 5%": "Resistor de filme de carbono 1R 1/4W 5%",
+    "10R 1_4W 5%": "Resistor de filme de carbono 10R 1/4W 5%",
+    "22R 1_4W 5%": "Resistor de filme de carbono 22R 1/4W 5%",
+    "47R 1_4W 5%": "Resistor de filme de carbono 47R 1/4W 5%",
+    "55R 1_4W 5%": "Resistor de filme de carbono 55R 1/4W 5%",
+    "100R 1_4W 5%": "Resistor de filme de carbono 100R 1/4W 5%",
+    "120R 1_4W 5%": "Resistor de filme de carbono 120R 1/4W 5%",
+    "150R 1_4W 5%": "Resistor de filme de carbono 150R 1/4W 5%",
+    "180R 1_4W 5%": "Resistor de filme de carbono 180R 1/4W 5%",
+    "200R 1_4W 5%": "Resistor de filme de carbono 200R 1/4W 5%",
+    "470R 1_4W 5%": "Resistor de filme de carbono 470R 1/4W 5%",
+    "560R 1_4W 5%": "Resistor de filme de carbono 560R 1/4W 5%",
+    "1KR 1_4W 5%": "Resistor de filme de carbono 1KR 1/4W 5%",
+    "1K2R 1_4W 5%": "Resistor de filme de carbono 1K2R 1/4W 5%",
+    "1K2R 1_4W 5%-2": "Resistor de filme de carbono 1K2R 1/4W 5%",
+    "1K8R 1_4W 5%": "Resistor de filme de carbono 1K8R 1/4W 5%",
+    "2KR 1_4W 5%": "Resistor de filme de carbono 2KR 1/4W 5%",
+    "2K2R 1_4W 5%": "Resistor de filme de carbono 2K2R 1/4W 5%",
+    "3K3R 1_4W 5%": "Resistor de filme de carbono 3K3R 1/4W 5%",
+    "10KR 1_4W 5%": "Resistor de filme de carbono 10KR 1/4W 5%",
+    "15KR 1_4W 5%": "Resistor de filme de carbono 15KR 1/4W 5%",
+    "330KR 1_4W 5%": "Resistor de filme de carbono 330KR 1/4W 5%",
+    "1MR 1_4W 5%": "Resistor de filme de carbono 1MR 1/4W 5%"
+  },
+  "resistores_de_potencia": {
+    "SHT50A": "Shunt Resistor 50A",
+    "RP1R100W": "Resistor de Potência 0,1R 50W",
+    "RP0,1R50W": "Resistor de Potência 1R 100W"
+  },
+  "resistores_axiais_de_precisao": {
+    "1R 1_4W 1%": "Resistor de filme metálico 1R 1/4W 1%",
+    "1R 1W 1%": "Resistor de filme metálico 1R 1W 1%",
+    "10R 1_4W 1%": "Resistor de filme metálico 10R 1/4W 1%",
+    "RP10R5W": "Resistor de Potência 10R 5W",
+    "RP100R3W": "Resistor de Potência 100R 3W",
+    "20R 1_4W 1%": "Resistor de filme metálico 20R 1/4W 1%",
+    "22R 1_4W 1%": "Resistor de filme metálico 22R 1/4W 1%",
+    "47R 1_4W 1%": "Resistor de filme metálico 47R 1/4W 1%",
+    "100R 1_4W 1%": "Resistor de filme metálico 100R 1/4W 1%",
+    "150R 1_4W 1%": "Resistor de filme metálico 150R 1/4W 1%",
+    "200R 1_4W 1%": "Resistor de filme metálico 200R 1/4W 1%",
+    "220R 1_4W 1%": "Resistor de filme metálico 220R 1/4W 1%",
+    "270R 1_4W 1%": "Resistor de filme metálico 270R 1/4W 1%",
+    "330R 1_4W 1%": "Resistor de filme metálico 330R 1/4W 1%",
+    "470R 1_4W 1%": "Resistor de filme metálico 470R 1/4W 1%",
+    "510R 1_4W 1%": "Resistor de filme metálico 510R 1/4W 1%",
+    "680R 1_4W 1%": "Resistor de filme metálico 680R 1/4W 1%",
+    "1KR 1_4W 1%": "Resistor de filme metálico 1KR 1/4W 1%",
+    "2KR 1_4W 1%": "Resistor de filme metálico 2KR 1/4W 1%",
+    "2K2R 1_4W 1%": "Resistor de filme metálico 2K2R 1/4W 1%",
+    "3K3R 1_4W 1%": "Resistor de filme metálico 3K3R 1/4W 1%",
+    "4K7R 1_4W 1%": "Resistor de filme metálico 4K7R 1/4W 1%",
+    "5K1R 1_4W 1%": "Resistor de filme metálico 5K1R 1/4W 1%",
+    "6K8R 1_4W 1%": "Resistor de filme metálico 6K8R 1/4W 1%",
+    "10KR 1_4W 1%": "Resistor de filme metálico 10KR 1/4W 1%",
+    "20KR 1_4W 1%": "Resistor de filme metálico 20KR 1/4W 1%",
+    "47KR 1_4W 1%": "Resistor de filme metálico 47KR 1/4W 1%",
+    "51KR 1_4W 1%": "Resistor de filme metálico 51KR 1/4W 1%",
+    "68KR 1_4W 1%": "Resistor de filme metálico 68KR 1/4W 1%",
+    "100KR 1_4W 1%": "Resistor de filme metálico 100KR 1/4W 1%",
+    "220KR 1_4W 1%": "Resistor de filme metálico 220KR 1/4W 1%",
+    "300KR 1_4W 1%": "Resistor de filme metálico 300KR 1/4W 1%",
+    "470KR 1_4W 1%": "Resistor de filme metálico 470KR 1/4W 1%",
+    "680KR 1_4W 1%": "Resistor de filme metálico 680KR 1/4W 1%",
+    "1MR 1_4W 1%": "Resistor de filme metálico 1MR 1/4W 1%"
+  },
+  "termistores_e_varistores": {
+    "TR5K": "Termistor 10KR",
+    "20D431K": "Varistor S20K 275V"
+  }
+}

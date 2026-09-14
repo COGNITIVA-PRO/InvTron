@@ -1,0 +1,1301 @@
+{
+  "IPEX-K": {
+    "saldo": 1
+  },
+  "IEC320-C8": {
+    "saldo": 1
+  },
+  "CNAL-AC": {
+    "saldo": 1
+  },
+  "BNC-PCB-F": {
+    "saldo": 1
+  },
+  "DUP254X2": {
+    "saldo": 1
+  },
+  "DUP254X3": {
+    "saldo": 1
+  },
+  "USBCMWC": {
+    "saldo": 1
+  },
+  "USBAWC": {
+    "saldo": 1
+  },
+  "USBCFPNL": {
+    "saldo": 1
+  },
+  "USBCFWIRED": {
+    "saldo": 1
+  },
+  "USB-C-Fio": {
+    "saldo": 1
+  },
+  "DC5525M-TP": {
+    "saldo": 1
+  },
+  "DC5525": {
+    "saldo": 1
+  },
+  "OV5640-120": {
+    "saldo": 1
+  },
+  "OV2640-120": {
+    "saldo": 1
+  },
+  "OV2640 -66": {
+    "saldo": 1
+  },
+  "OV2640-160-NV": {
+    "saldo": 1
+  },
+  "NTAG215": {
+    "saldo": 1
+  },
+  "ANT-GPS": {
+    "saldo": 1
+  },
+  "ACDC12V10A": {
+    "saldo": 1
+  },
+  "ND201003": {
+    "saldo": 1
+  },
+  "ND1002": {
+    "saldo": 1
+  },
+  "ND0602": {
+    "saldo": 1
+  },
+  "GA12-N20": {
+    "saldo": 1
+  },
+  "MG90S": {
+    "saldo": 1
+  },
+  "DS3230 PRO-270": {
+    "saldo": 1
+  },
+  "ACP3007": {
+    "saldo": 1
+  },
+  "PCBESP32": {
+    "saldo": 1
+  },
+  "SMDPTH": {
+    "saldo": 1
+  },
+  "PCB-FPC-FFC": {
+    "saldo": 1
+  },
+  "ESP32-BB": {
+    "saldo": 1
+  },
+  "PCBDF46": {
+    "saldo": 1
+  },
+  "PCBDF57": {
+    "saldo": 1
+  },
+  "PCBDF79": {
+    "saldo": 1
+  },
+  "PCBDF28": {
+    "saldo": 1
+  },
+  "PCBSF1015": {
+    "saldo": 1
+  },
+  "G3MB-202P-5VDC": {
+    "saldo": 1
+  },
+  "WH148": {
+    "saldo": 1
+  },
+  "PL2303": {
+    "saldo": 1
+  },
+  "CH340": {
+    "saldo": 1
+  },
+  "G1200": {
+    "saldo": 1
+  },
+  "1600X Wifi": {
+    "saldo": 1
+  },
+  "JCWHCAM": {
+    "saldo": 1
+  },
+  "HDMI4KUSBC": {
+    "saldo": 1
+  },
+  "EMF01": {
+    "saldo": 1
+  },
+  "V-I-USB": {
+    "saldo": 1
+  },
+  "DSO2D15": {
+    "saldo": 1
+  },
+  "GC01": {
+    "saldo": 1
+  },
+  "Awithz-HD2": {
+    "saldo": 1
+  },
+  "TS-101": {
+    "saldo": 1
+  },
+  "TS-100": {
+    "saldo": 1
+  },
+  "DC5521": {
+    "saldo": 1
+  },
+  "PS0312-10A": {
+    "saldo": 1
+  },
+  "XR2206": {
+    "saldo": 1
+  },
+  "OV5640-100": {
+    "saldo": 1
+  },
+  "DSP18-ST7735-I2C": {
+    "saldo": 1
+  },
+  "DSP128-R": {
+    "saldo": 1
+  },
+  "DSP279": {
+    "saldo": 1
+  },
+  "ESP32-2032S028": {
+    "saldo": 1
+  },
+  "DSP096": {
+    "saldo": 1
+  },
+  "TFT18": {
+    "saldo": 1
+  },
+  "ESP32C3u": {
+    "saldo": 1
+  },
+  "ESP32-WROOM-30": {
+    "saldo": 1
+  },
+  "ESP32-WROOM-38": {
+    "saldo": 1
+  },
+  "RL5V": {
+    "saldo": 1
+  },
+  "YX6300": {
+    "saldo": 1
+  },
+  "OV-USB": {
+    "saldo": 1
+  },
+  "USBOV9726": {
+    "saldo": 1
+  },
+  "TP4056": {
+    "saldo": 1
+  },
+  "BMS12-60-3S": {
+    "saldo": 1
+  },
+  "BMS12-20-3S": {
+    "saldo": 1
+  },
+  "UPS40W": {
+    "saldo": 1
+  },
+  "MAX485": {
+    "saldo": 1
+  },
+  "74HC4067": {
+    "saldo": 1
+  },
+  "BSS138": {
+    "saldo": 1
+  },
+  "LoRa8CH": {
+    "saldo": 1
+  },
+  "RFM95W": {
+    "saldo": 1
+  },
+  "433MHz": {
+    "saldo": 1
+  },
+  "ACDC220V-5V": {
+    "saldo": 1
+  },
+  "XL6019": {
+    "saldo": 1
+  },
+  "XL4015": {
+    "saldo": 1
+  },
+  "BK4036-20A": {
+    "saldo": 1
+  },
+  "BK2405-03A": {
+    "saldo": 1
+  },
+  "MT3608": {
+    "saldo": 1
+  },
+  "HW-106": {
+    "saldo": 1
+  },
+  "STC8G2K64S4": {
+    "saldo": 1
+  },
+  "PCA9685": {
+    "saldo": 1
+  },
+  "DS1302": {
+    "saldo": 1
+  },
+  "MP1584EN": {
+    "saldo": 1
+  },
+  "KY004": {
+    "saldo": 1
+  },
+  "SDRDR": {
+    "saldo": 1
+  },
+  "KY021": {
+    "saldo": 1
+  },
+  "KY040": {
+    "saldo": 1
+  },
+  "KY020": {
+    "saldo": 1
+  },
+  "KY017": {
+    "saldo": 1
+  },
+  "KY031": {
+    "saldo": 1
+  },
+  "KY002": {
+    "saldo": 1
+  },
+  "KY023": {
+    "saldo": 1
+  },
+  "KY008": {
+    "saldo": 1
+  },
+  "KY016": {
+    "saldo": 1
+  },
+  "KY027": {
+    "saldo": 1
+  },
+  "KY009": {
+    "saldo": 1
+  },
+  "KY029": {
+    "saldo": 1
+  },
+  "KY011": {
+    "saldo": 1
+  },
+  "KY034": {
+    "saldo": 1
+  },
+  "KY012": {
+    "saldo": 1
+  },
+  "KY006": {
+    "saldo": 1
+  },
+  "MB102": {
+    "saldo": 1
+  },
+  "KY036": {
+    "saldo": 1
+  },
+  "TTP223": {
+    "saldo": 1
+  },
+  "KY024": {
+    "saldo": 1
+  },
+  "KY035": {
+    "saldo": 1
+  },
+  "KY003": {
+    "saldo": 1
+  },
+  "KY025": {
+    "saldo": 1
+  },
+  "GY-521": {
+    "saldo": 1
+  },
+  "KY022": {
+    "saldo": 1
+  },
+  "KY033": {
+    "saldo": 1
+  },
+  "KY032": {
+    "saldo": 1
+  },
+  "KY010": {
+    "saldo": 1
+  },
+  "KY018": {
+    "saldo": 1
+  },
+  "VL53LXX": {
+    "saldo": 1
+  },
+  "KY039": {
+    "saldo": 1
+  },
+  "KY005": {
+    "saldo": 1
+  },
+  "GUVA-S12SD": {
+    "saldo": 1
+  },
+  "AHT20+BMP280": {
+    "saldo": 1
+  },
+  "KY015": {
+    "saldo": 1
+  },
+  "KY026": {
+    "saldo": 1
+  },
+  "KY001": {
+    "saldo": 1
+  },
+  "KY013": {
+    "saldo": 1
+  },
+  "KY028": {
+    "saldo": 1
+  },
+  "YL-69-YL-38": {
+    "saldo": 1
+  },
+  "HW-038": {
+    "saldo": 1
+  },
+  "MQ2": {
+    "saldo": 1
+  },
+  "GUVA-S12SD-2": {
+    "saldo": 1
+  },
+  "KY037": {
+    "saldo": 1
+  },
+  "KY038": {
+    "saldo": 1
+  },
+  "HC-SR04": {
+    "saldo": 1
+  },
+  "LM270WQ1-SDA2": {
+    "saldo": 1
+  },
+  "LCD-LVI-50-7": {
+    "saldo": 1
+  },
+  "SSR-25DA": {
+    "saldo": 1
+  },
+  "KK 5045-2": {
+    "saldo": 1
+  },
+  "KK 5051-2": {
+    "saldo": 1
+  },
+  "5159-T": {
+    "saldo": 1
+  },
+  "PH2-2P~5P": {
+    "saldo": 1
+  },
+  "2SK2749": {
+    "saldo": 1
+  },
+  "76121P": {
+    "saldo": 1
+  },
+  "CEP3120": {
+    "saldo": 1
+  },
+  "FTA02N60C": {
+    "saldo": 1
+  },
+  "IRF530N": {
+    "saldo": 1
+  },
+  "2N3904": {
+    "saldo": 1
+  },
+  "2N5551": {
+    "saldo": 1
+  },
+  "2SC1226A": {
+    "saldo": 1
+  },
+  "2SC3150": {
+    "saldo": 1
+  },
+  "2SC3866": {
+    "saldo": 1
+  },
+  "2SC4106": {
+    "saldo": 1
+  },
+  "2SD1776": {
+    "saldo": 1
+  },
+  "A42": {
+    "saldo": 1
+  },
+  "BC337": {
+    "saldo": 1
+  },
+  "BC547": {
+    "saldo": 1
+  },
+  "BC548": {
+    "saldo": 1
+  },
+  "BU406": {
+    "saldo": 1
+  },
+  "C1815": {
+    "saldo": 1
+  },
+  "C945": {
+    "saldo": 1
+  },
+  "C945P": {
+    "saldo": 1
+  },
+  "D13007K": {
+    "saldo": 1
+  },
+  "D1616A": {
+    "saldo": 1
+  },
+  "D304X": {
+    "saldo": 1
+  },
+  "S8050": {
+    "saldo": 1
+  },
+  "S9013": {
+    "saldo": 1
+  },
+  "S9014": {
+    "saldo": 1
+  },
+  "S9018": {
+    "saldo": 1
+  },
+  "2N3906": {
+    "saldo": 1
+  },
+  "2N5401": {
+    "saldo": 1
+  },
+  "2SA699A": {
+    "saldo": 1
+  },
+  "A1015": {
+    "saldo": 1
+  },
+  "A733": {
+    "saldo": 1
+  },
+  "A92": {
+    "saldo": 1
+  },
+  "HCBC557": {
+    "saldo": 1
+  },
+  "S8550": {
+    "saldo": 1
+  },
+  "S9012": {
+    "saldo": 1
+  },
+  "S9015": {
+    "saldo": 1
+  },
+  "TIP32C": {
+    "saldo": 1
+  },
+  "KA7905": {
+    "saldo": 1
+  },
+  "KA7912": {
+    "saldo": 1
+  },
+  "L7805CV": {
+    "saldo": 1
+  },
+  "L7808CV": {
+    "saldo": 1
+  },
+  "L7809CV": {
+    "saldo": 1
+  },
+  "L7812C": {
+    "saldo": 1
+  },
+  "LM2576T-ADJ": {
+    "saldo": 1
+  },
+  "LM317T": {
+    "saldo": 1
+  },
+  "LP2950": {
+    "saldo": 1
+  },
+  "TL431": {
+    "saldo": 1
+  },
+  "UA7812C": {
+    "saldo": 1
+  },
+  "25Q80BVAIG": {
+    "saldo": 1
+  },
+  "4N25": {
+    "saldo": 1
+  },
+  "7407N": {
+    "saldo": 1
+  },
+  "74LS138N": {
+    "saldo": 1
+  },
+  "CD4013BPW": {
+    "saldo": 1
+  },
+  "CD4017BE": {
+    "saldo": 1
+  },
+  "CD4027BE": {
+    "saldo": 1
+  },
+  "CD4046BE": {
+    "saldo": 1
+  },
+  "CD4093BE": {
+    "saldo": 1
+  },
+  "CH340C": {
+    "saldo": 1
+  },
+  "DS1804-100": {
+    "saldo": 1
+  },
+  "EL817": {
+    "saldo": 1
+  },
+  "FT232RL": {
+    "saldo": 1
+  },
+  "HEF4060B": {
+    "saldo": 1
+  },
+  "L293D": {
+    "saldo": 1
+  },
+  "LM324N": {
+    "saldo": 1
+  },
+  "LM358P": {
+    "saldo": 1
+  },
+  "LM386": {
+    "saldo": 1
+  },
+  "LM393": {
+    "saldo": 1
+  },
+  "LM555CN": {
+    "saldo": 1
+  },
+  "MAX7221": {
+    "saldo": 1
+  },
+  "MM74HC32N": {
+    "saldo": 1
+  },
+  "NE5532P": {
+    "saldo": 1
+  },
+  "NE555N": {
+    "saldo": 1
+  },
+  "NE555P": {
+    "saldo": 1
+  },
+  "PC817": {
+    "saldo": 1
+  },
+  "PIC16F84A": {
+    "saldo": 1
+  },
+  "SD4046BE": {
+    "saldo": 1
+  },
+  "TL082CP": {
+    "saldo": 1
+  },
+  "TL497ACN": {
+    "saldo": 1
+  },
+  "UA741CN": {
+    "saldo": 1
+  },
+  "ULN2003AN": {
+    "saldo": 1
+  },
+  "ULN2803APG": {
+    "saldo": 1
+  },
+  "UMW817": {
+    "saldo": 1
+  },
+  "WT7520": {
+    "saldo": 1
+  },
+  "SOQDIP24": {
+    "saldo": 1
+  },
+  "LM35": {
+    "saldo": 1
+  },
+  "FR302": {
+    "saldo": 1
+  },
+  "1N4148": {
+    "saldo": 1
+  },
+  "PH4148": {
+    "saldo": 1
+  },
+  "1N4937": {
+    "saldo": 1
+  },
+  "FR107": {
+    "saldo": 1
+  },
+  "FR207": {
+    "saldo": 1
+  },
+  "1N5819": {
+    "saldo": 1
+  },
+  "1N4004": {
+    "saldo": 1
+  },
+  "1N4007": {
+    "saldo": 1
+  },
+  "1N5399": {
+    "saldo": 1
+  },
+  "1N5408": {
+    "saldo": 1
+  },
+  "SR520": {
+    "saldo": 1
+  },
+  "1N5822": {
+    "saldo": 1
+  },
+  "1N5844": {
+    "saldo": 1
+  },
+  "SR306": {
+    "saldo": 1
+  },
+  "1N4727": {
+    "saldo": 1
+  },
+  "1N4728": {
+    "saldo": 1
+  },
+  "1N4729": {
+    "saldo": 1
+  },
+  "1N4730": {
+    "saldo": 1
+  },
+  "1N4732": {
+    "saldo": 1
+  },
+  "1N4733": {
+    "saldo": 1
+  },
+  "1N4734": {
+    "saldo": 1
+  },
+  "1N4735": {
+    "saldo": 1
+  },
+  "1N4739": {
+    "saldo": 1
+  },
+  "1N4740": {
+    "saldo": 1
+  },
+  "1N4742": {
+    "saldo": 1
+  },
+  "1N4743": {
+    "saldo": 1
+  },
+  "1N4744": {
+    "saldo": 1
+  },
+  "1N4746": {
+    "saldo": 1
+  },
+  "1N4750": {
+    "saldo": 1
+  },
+  "1N4751": {
+    "saldo": 1
+  },
+  "PBL405": {
+    "saldo": 1
+  },
+  "LEDRD3": {
+    "saldo": 1
+  },
+  "LEDYL3": {
+    "saldo": 1
+  },
+  "LEDWH3": {
+    "saldo": 1
+  },
+  "LEDBL3": {
+    "saldo": 1
+  },
+  "LEDGR3": {
+    "saldo": 1
+  },
+  "LEDRD5": {
+    "saldo": 1
+  },
+  "LEDYL5": {
+    "saldo": 1
+  },
+  "LEDGR5": {
+    "saldo": 1
+  },
+  "LEDWH5": {
+    "saldo": 1
+  },
+  "LEDBL5": {
+    "saldo": 1
+  },
+  "BYV118X": {
+    "saldo": 1
+  },
+  "S20C40C": {
+    "saldo": 1
+  },
+  "SBL2040CT": {
+    "saldo": 1
+  },
+  "SBL3040PT": {
+    "saldo": 1
+  },
+  "S20C45C": {
+    "saldo": 1
+  },
+  "YG802C06": {
+    "saldo": 1
+  },
+  "SF1602CT": {
+    "saldo": 1
+  },
+  "SF1620CT": {
+    "saldo": 1
+  },
+  "TIC106D": {
+    "saldo": 1
+  },
+  "BT151": {
+    "saldo": 1
+  },
+  "BT139": {
+    "saldo": 1
+  },
+  "MCR100-8": {
+    "saldo": 1
+  },
+  "OC4MH": {
+    "saldo": 1
+  },
+  "XT4MH": {
+    "saldo": 1
+  },
+  "XT3V57MH": {
+    "saldo": 1
+  },
+  "1uF50V": {
+    "saldo": 1
+  },
+  "2_2uF50V": {
+    "saldo": 1
+  },
+  "3_3uF50V": {
+    "saldo": 1
+  },
+  "4_7uF50V": {
+    "saldo": 1
+  },
+  "10uF25V": {
+    "saldo": 1
+  },
+  "10uF50V": {
+    "saldo": 1
+  },
+  "22uF25V": {
+    "saldo": 1
+  },
+  "33uF16V": {
+    "saldo": 1
+  },
+  "47uF16V": {
+    "saldo": 1
+  },
+  "47uF25V": {
+    "saldo": 1
+  },
+  "470uF25V": {
+    "saldo": 1
+  },
+  "47uF350V": {
+    "saldo": 1
+  },
+  "68uF450V": {
+    "saldo": 1
+  },
+  "100uF10V": {
+    "saldo": 1
+  },
+  "100uF16V": {
+    "saldo": 1
+  },
+  "100uF25V": {
+    "saldo": 1
+  },
+  "220uF10V": {
+    "saldo": 1
+  },
+  "220uF16V": {
+    "saldo": 1
+  },
+  "220uF25V": {
+    "saldo": 1
+  },
+  "330uF50V": {
+    "saldo": 1
+  },
+  "380uF350V": {
+    "saldo": 1
+  },
+  "470uF6,3V": {
+    "saldo": 1
+  },
+  "470uF16V": {
+    "saldo": 1
+  },
+  "470uF35V": {
+    "saldo": 1
+  },
+  "1mF25V": {
+    "saldo": 1
+  },
+  "2,2mF25V": {
+    "saldo": 1
+  },
+  "4,7mF50V": {
+    "saldo": 1
+  },
+  "2_5nF": {
+    "saldo": 1
+  },
+  "10nF": {
+    "saldo": 1
+  },
+  "22nF": {
+    "saldo": 1
+  },
+  "100nF": {
+    "saldo": 1
+  },
+  "220nF": {
+    "saldo": 1
+  },
+  "0_1uF": {
+    "saldo": 1
+  },
+  "470nF": {
+    "saldo": 1
+  },
+  "100nF250V": {
+    "saldo": 1
+  },
+  "220nF250V": {
+    "saldo": 1
+  },
+  "330nF250V": {
+    "saldo": 1
+  },
+  "2pF": {
+    "saldo": 1
+  },
+  "3_3pF": {
+    "saldo": 1
+  },
+  "5pF": {
+    "saldo": 1
+  },
+  "10pF": {
+    "saldo": 1
+  },
+  "15pF": {
+    "saldo": 1
+  },
+  "16pF": {
+    "saldo": 1
+  },
+  "22pF": {
+    "saldo": 1
+  },
+  "27pF": {
+    "saldo": 1
+  },
+  "30pF": {
+    "saldo": 1
+  },
+  "33pF": {
+    "saldo": 1
+  },
+  "39pF": {
+    "saldo": 1
+  },
+  "47pF": {
+    "saldo": 1
+  },
+  "68pF": {
+    "saldo": 1
+  },
+  "75pF": {
+    "saldo": 1
+  },
+  "82pF": {
+    "saldo": 1
+  },
+  "101": {
+    "saldo": 1
+  },
+  "151": {
+    "saldo": 1
+  },
+  "221": {
+    "saldo": 1
+  },
+  "331": {
+    "saldo": 1
+  },
+  "461": {
+    "saldo": 1
+  },
+  "471": {
+    "saldo": 1
+  },
+  "681": {
+    "saldo": 1
+  },
+  "102": {
+    "saldo": 1
+  },
+  "152": {
+    "saldo": 1
+  },
+  "222": {
+    "saldo": 1
+  },
+  "332": {
+    "saldo": 1
+  },
+  "472": {
+    "saldo": 1
+  },
+  "682": {
+    "saldo": 1
+  },
+  "103": {
+    "saldo": 1
+  },
+  "153": {
+    "saldo": 1
+  },
+  "333": {
+    "saldo": 1
+  },
+  "473": {
+    "saldo": 1
+  },
+  "683": {
+    "saldo": 1
+  },
+  "104": {
+    "saldo": 1
+  },
+  "ELS-515SURWA": {
+    "saldo": 1
+  },
+  "S530-A3": {
+    "saldo": 1
+  },
+  "HS-5101AS": {
+    "saldo": 1
+  },
+  "D3042ASR": {
+    "saldo": 1
+  },
+  "D3042KSR": {
+    "saldo": 1
+  },
+  "LDD5115": {
+    "saldo": 1
+  },
+  "POT5K": {
+    "saldo": 1
+  },
+  "TRM5K": {
+    "saldo": 1
+  },
+  "POT10K": {
+    "saldo": 1
+  },
+  "TRM10K": {
+    "saldo": 1
+  },
+  "TRM100K": {
+    "saldo": 1
+  },
+  "POT100K": {
+    "saldo": 1
+  },
+  "1R 1_4W 5%": {
+    "saldo": 1
+  },
+  "10R 1_4W 5%": {
+    "saldo": 1
+  },
+  "22R 1_4W 5%": {
+    "saldo": 1
+  },
+  "47R 1_4W 5%": {
+    "saldo": 1
+  },
+  "55R 1_4W 5%": {
+    "saldo": 1
+  },
+  "100R 1_4W 5%": {
+    "saldo": 1
+  },
+  "120R 1_4W 5%": {
+    "saldo": 1
+  },
+  "150R 1_4W 5%": {
+    "saldo": 1
+  },
+  "180R 1_4W 5%": {
+    "saldo": 1
+  },
+  "200R 1_4W 5%": {
+    "saldo": 1
+  },
+  "470R 1_4W 5%": {
+    "saldo": 1
+  },
+  "560R 1_4W 5%": {
+    "saldo": 1
+  },
+  "1KR 1_4W 5%": {
+    "saldo": 1
+  },
+  "1K2R 1_4W 5%": {
+    "saldo": 1
+  },
+  "1K2R 1_4W 5%-2": {
+    "saldo": 1
+  },
+  "1K8R 1_4W 5%": {
+    "saldo": 1
+  },
+  "2KR 1_4W 5%": {
+    "saldo": 1
+  },
+  "2K2R 1_4W 5%": {
+    "saldo": 1
+  },
+  "3K3R 1_4W 5%": {
+    "saldo": 1
+  },
+  "10KR 1_4W 5%": {
+    "saldo": 1
+  },
+  "15KR 1_4W 5%": {
+    "saldo": 1
+  },
+  "330KR 1_4W 5%": {
+    "saldo": 1
+  },
+  "1MR 1_4W 5%": {
+    "saldo": 1
+  },
+  "SHT50A": {
+    "saldo": 1
+  },
+  "RP1R100W": {
+    "saldo": 1
+  },
+  "RP0,1R50W": {
+    "saldo": 1
+  },
+  "1R 1_4W 1%": {
+    "saldo": 1
+  },
+  "1R 1W 1%": {
+    "saldo": 1
+  },
+  "10R 1_4W 1%": {
+    "saldo": 1
+  },
+  "RP10R5W": {
+    "saldo": 1
+  },
+  "RP100R3W": {
+    "saldo": 1
+  },
+  "20R 1_4W 1%": {
+    "saldo": 1
+  },
+  "22R 1_4W 1%": {
+    "saldo": 1
+  },
+  "47R 1_4W 1%": {
+    "saldo": 1
+  },
+  "100R 1_4W 1%": {
+    "saldo": 1
+  },
+  "150R 1_4W 1%": {
+    "saldo": 1
+  },
+  "200R 1_4W 1%": {
+    "saldo": 1
+  },
+  "220R 1_4W 1%": {
+    "saldo": 1
+  },
+  "270R 1_4W 1%": {
+    "saldo": 1
+  },
+  "330R 1_4W 1%": {
+    "saldo": 1
+  },
+  "470R 1_4W 1%": {
+    "saldo": 1
+  },
+  "510R 1_4W 1%": {
+    "saldo": 1
+  },
+  "680R 1_4W 1%": {
+    "saldo": 1
+  },
+  "1KR 1_4W 1%": {
+    "saldo": 1
+  },
+  "2KR 1_4W 1%": {
+    "saldo": 1
+  },
+  "2K2R 1_4W 1%": {
+    "saldo": 1
+  },
+  "3K3R 1_4W 1%": {
+    "saldo": 1
+  },
+  "4K7R 1_4W 1%": {
+    "saldo": 1
+  },
+  "5K1R 1_4W 1%": {
+    "saldo": 1
+  },
+  "6K8R 1_4W 1%": {
+    "saldo": 1
+  },
+  "10KR 1_4W 1%": {
+    "saldo": 1
+  },
+  "20KR 1_4W 1%": {
+    "saldo": 1
+  },
+  "47KR 1_4W 1%": {
+    "saldo": 1
+  },
+  "51KR 1_4W 1%": {
+    "saldo": 1
+  },
+  "68KR 1_4W 1%": {
+    "saldo": 1
+  },
+  "100KR 1_4W 1%": {
+    "saldo": 1
+  },
+  "220KR 1_4W 1%": {
+    "saldo": 1
+  },
+  "300KR 1_4W 1%": {
+    "saldo": 1
+  },
+  "470KR 1_4W 1%": {
+    "saldo": 1
+  },
+  "680KR 1_4W 1%": {
+    "saldo": 1
+  },
+  "1MR 1_4W 1%": {
+    "saldo": 1
+  },
+  "TR5K": {
+    "saldo": 1
+  },
+  "20D431K": {
+    "saldo": 1
+  }
+}

@@ -4,3 +4,5 @@ build/
 secret/
 credentials.h
 old/
+3D/Original/
+test/FirebaseTest/

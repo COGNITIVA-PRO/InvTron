@@ -29,7 +29,7 @@
 
 // Other definitions
 #define max_retries      3 // max times to try to connect to an SSID
-#define conn_timeout   500 // time-out for connecting to peripherals (in ms)
+#define delay_time   500 // time-out for connecting to peripherals (in ms)
 #define BUFFER_LIMIT 40000 // Image buffer size
 
 class LGFX_ESP32_Shield : public lgfx::LGFX_Device {
@@ -91,8 +91,8 @@ public:
 LGFX_ESP32_Shield tft; 
 
 // Network/Wifi credentials (from secret/credendials.h)
-#define WIFI_SSID     WIFI_SSID1
-#define WIFI_PASSWORD WIFI_PASSWORD1
+#define WIFI_SSID     WIFI_SSID
+#define WIFI_PASSWORD WIFI_PASSWORD
 
 // Firebase credentials (from secret/credendials.h)
 #define API_KEY       MY_API_KEY
@@ -123,6 +123,7 @@ AsyncResult fb_result;
 enum MenuState { MENU_CLASS, MENU_CATEGORY, MENU_SUBCATEGORY, MENU_ITEM, MENU_QTY_ADJUST };
 MenuState currentState = MENU_CLASS;
 
+int totalItems = (int)MenuEntries.size();
 String idClass = "", idCat = "", idSub = "", idItem = "";
 String currentItemName = "", currentItemPict = "";
 int currentInventory = 0;
@@ -147,7 +148,34 @@ void IRAM_ATTR Read_Encoder() {
   lastCLKState = CLKStatus;
 }
 
+
+// Initialization and setup
 void setup() {
+  int retries = 0;
+  unsigned long Auth_Start;
+
+  // Wifi
+  void ConnectToWiFi(_WIFI_SSID, _WIFI_PASSWORD){
+    WIFI_SSID = _WIFI_SSID;
+    WIFI_PASSWORD = _WIFI_PASSWORD;
+    
+    Serial.printf("Conecting to Wi-Fi %s\n", WIFI_SSID);
+    tft.printf("Conecting to Wi-Fi %s\n", WIFI_SSID);
+    
+    WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
+    Auth_Start = millis();
+
+    while (WiFi.status() != WL_CONNECTED) { 
+      if (millis() - Auth_Start > (delay_time * 40)) {
+        break;
+      }
+      Serial.print(".");
+      tft.print(".");
+      delay(delay_time);
+    }
+  }  
+  
+  // Serial initialization for debugging
   Serial.begin(115200);
   
   // Encoder
@@ -159,7 +187,7 @@ void setup() {
   lastCLKState = digitalRead(ENCODER_CLK);
   attachInterrupt(digitalPinToInterrupt(ENCODER_CLK), Read_Encoder, CHANGE);
 
-  // Display
+  // Display initialization
   Serial.println ("Inicializing Display");
   tft.init();
   tft.setRotation(1); 
@@ -169,29 +197,33 @@ void setup() {
   tft.setTextColor(TFT_WHITE);
   tft.setTextSize (1);
 
-  // Wifi
-  retries = 0;
-  Serial.printf("Conecting to Wi-Fi %s\n", WIFI_SSID);
-  tft.printf("Conecting to Wi-Fi %s\n", WIFI_SSID);
+  // Wifi connection
+  // Assume you have put your Wi-Fi credentials in secret/credentials.h
+  // You can have two sets of credentials (WIFI_SSID1/WIFI_PASSWORD1 and WIFI_SSID2/WIFI_PASSWORD2) to 
+  // try connecting to two different networks (e.g., home and office). The code will attempt to connect 
+  // to the first one, and if it fails, it will try the second one.
   
-  WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
-  unsigned long Auth_Start;
-  
-  Auth_Start = millis();
-  while (WiFi.status() != WL_CONNECTED) { 
-    if (millis() - Auth_Start > (conn_timeout * 40)) {
-      Serial.printf("ERROR 01: Couldn't connect to Wi-Fi %s\n", WIFI_SSID);
+  // Attempt to connect to the first Wi-Fi network
+  ConnectToWiFi(WIFI_SSID1, WIFI_PASSWORD1);
+  if (WiFi.status() != WL_CONNECTED) { 
+    Serial.printf("\n > Warning! Wi-Fi %s is not responding, trying %s instead.\n", WIFI_SSID1, WIFI_SSID2);
+    tft.printf("\n > Warning! Wi-Fi %s is not responding, trying %s instead.\n", WIFI_SSID1, WIFI_SSID2);   
+
+    // Attempt to connect to the second Wi-Fi network
+    ConnectToWiFi(WIFI_SSID2, WIFI_PASSWORD2);
+    if (WiFi.status() != WL_CONNECTED) { 
+      Serial.print("\nERROR 01: Couldn't connect to Wi-Fi!\n");
       Serial.print("Device halted!\n");
-      tft.printf("ERROR 01: Couldn't connect to Wi-Fi %s\n", WIFI_SSID);
-      tft.print("Device halted\n");
+      tft.print("\nERROR 01: Couldn't connect to Wi-Fi!\n");
+      tft.print("Device halted!\n");
       esp_deep_sleep_start(); 
     }
-    delay(conn_timeout);
   }
 
-  tft.printf("Connected to %s\n", WIFI_SSID);
-  Serial.printf("Connected to %s\n", WIFI_SSID);
+  tft.printf("Connected to Wi-Fi %s\n", WIFI_SSID);
+  Serial.printf("Connected to Wi-Fi %s\n", WIFI_SSID);
 
+  // Prepare the secure client for HTTPS connection to Firebase rtdb
   ssl_client.setInsecure(); 
   
   // Stabled initialization and credentials association
@@ -209,57 +241,65 @@ void setup() {
   Auth_Start = millis();
   while (!database_app.ready()) {
     database_app.loop();
-    if (millis() - Auth_Start > (conn_timeout * 40)) {
-      tft.print("ERROR 02: Firebase authentication timed-out!\n");
-      tft.println("Device halted\n");
-      Serial.println("ERROR 02: Firebase authentication timed-out");
-      Serial.println("Device halted\n");
+    if (millis() - Auth_Start > (delay_time * 40)) {
+      tft.print("\nERROR 02: Firebase authentication timed-out!\n");
+      tft.println("Device halted!\n");
+      Serial.println("\nERROR 02: Firebase authentication timed-out");
+      Serial.println("Device halted!\n");
       break;
     }
-    delay(conn_timeout);
+    Serial.print(".");
+    tft.print(".");
+    delay(delay_time);
   }
 
-  tft.print("loading data...\n");
-  Serial.print("loading data...\n");
+  tft.print("Loading data...\n");
+  Serial.print("Loading data...\n");
   loadMenuData("/class");
 }
 
-void loop() {
-  database_app.loop();
 
+// Main loop
+void loop() {
+  // Check for any updates from Firebase (e.g., if the user changes data from another device)
+  database_app.loop();
+   
+  // Check if the encoder has been turned and update the menu selection or quantity accordingly
   if (encoderTurned) {
     encoderTurned = false; 
+    // check if the current state is MENU_QTY_ADJUST, if so, adjust the inventory quantity
     if (currentState == MENU_QTY_ADJUST) {
-      if (turnDir == 1) currentInventory++;
-      else if (turnDir == -1 && currentInventory > 0) currentInventory--;
+      // Add/Subtract the turn direction from the current inventory, ensuring it doesn't go below zero
+      currentInventory = max(0, currentInventory + turnDir);
     } else {
-      if (turnDir == 1) { 
-        if (selectedIndex < (int)MenuEntries.size() - 1) selectedIndex++;
-        else selectedIndex = 0;
-      } else if (turnDir == -1) { 
-        if (selectedIndex > 0) selectedIndex--;
-        else selectedIndex = (int)MenuEntries.size() - 1;
-      }
+      // Faz o menu rodar de forma infinita (carrossel) usando matemática
+      selectedIndex = (selectedIndex + turnDir + totalItems) % totalItems;
     }
     Update_Display();
   }
 
+  // Check if the encoder button has been pressed and handle the confirmation action
   if (digitalRead(ENCODER_SW) == LOW && !buttonPressed) {
     buttonPressed = true;
-    delay(conn_timeout/10); 
-    if (digitalRead(ENCODER_SW) == LOW) tratarConfirmacao();
+    // debounce delay to avoid multiple triggers from a single press
+    delay(delay_time/10); 
+    if (digitalRead(ENCODER_SW) == LOW) Handle_Confirmation();
   }
-  if (digitalRead(ENCODER_SW) == HIGH) buttonPressed = false; 
+  // if (digitalRead(ENCODER_SW) == HIGH) buttonPressed = false; 
+  buttonPressed = false; 
 }
 
+
+// Loads submenu data from Firebase Realtime Database at the specified path and updates the display.
 void loadMenuData(String path) {
   tft.fillScreen(TFT_BLACK); 
   tft.setCursor(2, 2);
   tft.setTextColor(TFT_WHITE);
   tft.setTextSize(1);
-  tft.print("Fetching data from the cloud...");
-  Serial.print("Fetching data from the cloud...");
+  tft.print("Fetching data from the cloud...\n");
+  Serial.print("Fetching data from the cloud...\n");
 
+  // Clear previous menu entries and values
   MenuEntries.clear();
   MenuValues.clear();
   selectedIndex = 0;
@@ -280,16 +320,19 @@ void loadMenuData(String path) {
   } else {
     tft.fillScreen(TFT_BLACK);
     tft.setCursor(2, 30);
-    tft.printf("ERROR 03: Could fetch data from the cloud:\n%s\n", fb_result.error().message().c_str());
-    delay(conn_timeout * 4);
+    tft.printf("ERROR 03: Could not fetch data from the cloud:\n%s\n", fb_result.error().message().c_str());
+    Serial.printf("ERROR 03: Could not fetch data from the cloud:\n%s\n", fb_result.error().message().c_str());
+    delay(delay_time * 4);
   }
   Update_Display();
 }
 
+
+
 // Downloads a JPEG (item thumbnail) from IMAGES_BASE_URL and draws it on the display.
 // Returns false if there's no photo, download fails or the file is bigger than the
-// buffer size (IMG_BUFFER_LIMIT) -- in these cases, Update_Display()
-// draws a void picture instead.
+// buffer size (IMG_BUFFER_LIMIT) -- in these cases, Update_Display() tries to draw
+// a void picture placeholder.
 bool Fetch_n_Show_Item_Picture(const String& pictureFileName, int x, int y, int w, int h) {
   if (pictureFileName.length() == 0) return false;
 
@@ -299,22 +342,27 @@ bool Fetch_n_Show_Item_Picture(const String& pictureFileName, int x, int y, int 
   HTTPClient http;
   bool ok = false;
 
+  // Check if the URL starts with "https://" and use the appropriate begin method
   if (url.startsWith("https://")) {
     if (!http.begin(ssl_client, url)) return false;
   } else {
     if (!http.begin(url)) return false;
   }
 
+  // Set a timeout for the HTTP request
+  http.setTimeout(delay_time * 10);
   int HTTP_code = http.GET();
   if (HTTP_code == HTTP_CODE_OK) {
     int pictureSize = http.getSize();
+    // Check if the picture size is within the buffer limit before allocating memory
     if (pictureSize > 0 && (size_t)pictureSize <= IMG_BUFFER_LIMIT) {
       uint8_t* buf = (uint8_t*)malloc(pictureSize);
       if (buf) {
         WiFiClient* stream = http.getStreamPtr();
         size_t bytes_read = 0;
         unsigned long time_Start = millis();
-        while (bytes_read < (size_t)pictureSize && http.connected() && (millis() - time_Start) < conn_timeout * 10) {
+        // Read the picture data in chunks until the entire picture is read or a timeout occurs
+        while (bytes_read < (size_t)pictureSize && http.connected() && (millis() - time_Start) < delay_time * 10) {
           size_t stream_available = stream->available();
           if (stream_available) {
             int bytes_read_now = stream->readBytes(buf + bytes_read, min(stream_available, (size_t)(pictureSize - bytes_read)));
@@ -323,6 +371,7 @@ bool Fetch_n_Show_Item_Picture(const String& pictureFileName, int x, int y, int 
             delay(1);
           }
         }
+        // Validate that the entire picture was read successfully before drawing it on the display
         if (bytes_read == (size_t)pictureSize) {
           tft.drawJpg(buf, pictureSize, x, y, w, h);
           ok = true;
@@ -335,12 +384,15 @@ bool Fetch_n_Show_Item_Picture(const String& pictureFileName, int x, int y, int 
   return ok;
 }
 
-// Corta uma string para no máximo maxLen caracteres, adicionando ".." se cortar.
-String truncar(const String& s, int maxLen) {
+
+// Cut a string to a maximum of maxLen characters, adding ".." if truncated
+String truncate_string(const String& s, int maxLen) {
   if ((int)s.length() <= maxLen) return s;
   return s.substring(0, maxLen - 2) + "..";
 }
 
+
+// Updates the display based on the current state (menu or item details) and selected index
 void Update_Display() {
   tft.fillScreen(TFT_BLACK);
 
@@ -350,6 +402,7 @@ void Update_Display() {
     const int text_X = item_pic_X + item_pic_W + 4;
     const int text_W = 160 - text_X - 2;
 
+    // Draw the item picture (if available) or a placeholder rectangle if not
     if (!Fetch_n_Show_Item_Picture(currentItemPict, item_pic_X, item_pic_Y, item_pic_W, item_pic_H)) {
       tft.drawRect(item_pic_X, item_pic_Y, item_pic_W, item_pic_H, TFT_DARKGREY);
       tft.setTextColor(TFT_DARKGREY);
@@ -368,16 +421,17 @@ void Update_Display() {
     tft.setTextWrap(false, false);
     tft.clearClipRect();
 
+    // Item picture and inventory balance
     tft.setTextColor(TFT_GREEN);
     tft.setTextSize(1);
     tft.setCursor(2, item_pic_Y + item_pic_H + 4);
     tft.print("QTY:");
-
     tft.setTextSize(2);
     tft.setTextColor(TFT_CYAN);
     tft.setCursor(2, item_pic_Y + item_pic_H + 14);
     tft.printf("< %d >", currentInventory);
 
+    // Confirmation prompt
     tft.setTextSize(1);
     tft.setTextColor(TFT_RED);
     tft.setCursor(2, 118);
@@ -415,7 +469,7 @@ void Update_Display() {
       tft.setTextColor(TFT_WHITE);
       tft.print(" ");
     }
-    tft.println(truncar(MenuValues[i], 25));
+    tft.println(truncate_string(MenuValues[i], 25));
     y += Line_Height;
   }
 }
@@ -457,7 +511,7 @@ void carregarDetalheItem(String idItemSelecionado) {
   Update_Display();
 }
 
-void tratarConfirmacao() {
+void Handle_Confirmation() {
   if (MenuEntries.size() == 0 && currentState != MENU_QTY_ADJUST) return;
 
   switch (currentState) {
@@ -498,7 +552,7 @@ void tratarConfirmacao() {
         tft.fillScreen(TFT_BLACK);
         tft.setCursor(2, 40);
         tft.printf("Error saving:\n%s", fb_result.error().message().c_str());
-        delay(conn_timeout * 5);
+        delay(delay_time * 5);
       }
 
       currentState = MENU_CATEGORY;

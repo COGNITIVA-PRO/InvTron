@@ -123,7 +123,7 @@ AsyncResult fb_result;
 enum MenuState { MENU_CLASS, MENU_CATEGORY, MENU_SUBCATEGORY, MENU_ITEM, MENU_QTY_ADJUST };
 MenuState currentState = MENU_CLASS;
 
-int totalItems = (int)MenuEntries.size();
+int totalItems = 0;
 String idClass = "", idCat = "", idSub = "", idItem = "";
 String currentItemName = "", currentItemPict = "";
 int currentInventory = 0;
